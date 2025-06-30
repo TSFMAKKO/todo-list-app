@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-2xl mx-auto mt-8 p-6 bg-gray-900/50 backdrop-blur-sm border border-cyan-500/20 rounded-xl shadow-lg md:mx-5">
+  <div class="max-w-2xl mx-auto mt-8 p-6 bg-gray-900/50 backdrop-blur-sm border border-cyan-500/20 rounded-xl shadow-lg">
     <div class="flex mb-6 gap-3 flex-col sm:flex-row">
       <input type="text" v-model="newTodoText" @keyup.enter="addTodo" placeholder="Add a new todo..." class="flex-grow p-3 bg-gray-800 border border-gray-700 rounded-lg text-base text-light outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 transition-all placeholder-gray-500" />
       <button @click="addTodo" class="bg-gradient-to-br from-cyan-500 to-blue-600 text-white px-5 py-3 border border-cyan-500/50 rounded-lg cursor-pointer text-base font-bold transition-all duration-300 ease-in-out shadow-lg shadow-cyan-500/20 hover:shadow-xl hover:shadow-cyan-500/40 hover:-translate-y-0.5">
